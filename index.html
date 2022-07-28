@@ -53,7 +53,7 @@
       </nav>
       <!-- nav ends -->
       <!-- carousel section starts -->
-      <section class="banner-section mb-5">
+      <section class="container banner-section mb-5">
         <div
           id="carouselExampleCaptions"
           class="carousel slide"
@@ -63,48 +63,58 @@
             <div class="carousel-item active">
               <img
                 src="images/cover/20220727_212508.png"
-                class="d-block w-100"
+                class="rounded d-block w-100"
                 alt="..."
               />
-              <div class="carousel-caption sm-">
-                <div>
-                  <h5 class="fs-2 fw-bold">Start Your Educational Journey</h5>
-                  <p class="fw-lighter">
+              <div class="carousel-caption">
+                <div class="">
+                  <h1 class="carousel-heads">Start Your Educational Journey</h1>
+                  <p class="fw-lighter carousel-paragragraph">
                     Our mission is to nurture the minds of young aspirants and
                     preparing them stay ahead in these competitive times.
                   </p>
-                  <button class="btn btn-primary px-5">Get Started</button>
+                  <button class="carousel-button btn btn-primary px-4">
+                    Get Started
+                  </button>
                 </div>
               </div>
             </div>
             <div class="carousel-item">
               <img
                 src="images/cover/20220727_212427.png"
-                class="d-block w-100"
+                class="rounded d-block w-100"
                 alt="..."
               />
               <div class="carousel-caption">
-                <h5 class="fs-2 fw-bold">Start Your Educational Journey</h5>
-                <p class="fw-lighter">
-                  Our mission is to nurture the minds of young aspirants and
-                  preparing them stay ahead in these competitive times.
-                </p>
-                <button class="btn btn-primary px-5 py-1">Get Started</button>
+                <div class="">
+                  <h1 class="carousel-heads">Start Your Educational Journey</h1>
+                  <p class="fw-lighter carousel-paragragraph">
+                    Our mission is to nurture the minds of young aspirants and
+                    preparing them stay ahead in these competitive times.
+                  </p>
+                  <button class="carousel-button btn btn-primary px-4">
+                    Get Started
+                  </button>
+                </div>
               </div>
             </div>
             <div class="carousel-item">
               <img
                 src="images/cover/20220727_212449.png"
-                class="d-block w-100"
+                class="rounded d-block w-100"
                 alt="..."
               />
               <div class="carousel-caption">
-                <h5 class="fs-2 fw-bold">Start Your Educational Journey</h5>
-                <p class="fw-lighter">
-                  Our mission is to nurture the minds of young aspirants and
-                  preparing them stay ahead in these competitive times.
-                </p>
-                <button class="btn btn-primary px-5 py-1">Get Started</button>
+                <div class="">
+                  <h1 class="carousel-heads">Start Your Educational Journey</h1>
+                  <p class="fw-lighter carousel-paragragraph">
+                    Our mission is to nurture the minds of young aspirants and
+                    preparing them stay ahead in these competitive times.
+                  </p>
+                  <button class="carousel-button btn btn-primary px-4">
+                    Get Started
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -131,9 +141,9 @@
       <!-- carousel ends  -->
     </header>
     <main class="container my-5">
-        <!-- courses section starts -->
+      <!-- courses section starts -->
       <section class="container">
-        <h5 class="text-center fs-1 fw-bold">Our Populer Courses</h5>
+        <h5 class="text-center fs-2 fw-bold">Our Populer Courses</h5>
         <p class="text-center fw-lighter">
           Course is defined as a specific path that something follows or the way
           in which something develops.Some of our popular courses are shown
@@ -277,10 +287,74 @@
           </div>
         </div>
         <div class="d-flex justify-content-center my-5">
-            <div><button class="btn btn-primary px-5 py-1">See All</button></div>
+          <div><button class="btn btn-primary px-5 py-1">See All</button></div>
         </div>
       </section>
       <!-- course section ends  -->
+      <!-- ready to join starts -->
+      <section class="container text-light px-5 py-5 bg-info rounded">
+        <div class="row">
+          <div class="col fw-lighter text-left col-lg-6 col-12">
+            <h3>Ready to join?</h3>
+            <p>
+              Educate yourself on the state of local high schools, attend
+              meetings, ask questions, and raise urgent priorities.
+            </p>
+          </div>
+          <div class="col col-6 col-lg-6 col-12 my-auto">
+            <!--  -->
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="btn btn-primary px-4"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Registration
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="text-black modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Register for Courses
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body"></div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      Save changes
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+          </div>
+        </div>
+      </section>
+      <!-- ready to join ends -->
     </main>
 
     <!-- bootstrap.bundle.min.js  -->
