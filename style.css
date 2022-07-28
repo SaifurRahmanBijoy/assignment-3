@@ -1,6 +1,4 @@
-*body{
-    margin: ;
-}
+
 @media (max-width: 991px){
     .carousel-heads{
         padding: calc(1rem+0.9vh);
