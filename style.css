@@ -1,4 +1,9 @@
-
+/* common styles */
+.my-own{
+    margin-top: 150px ;
+    margin-bottom: 150px ;
+}
+/* responsive headings for mobile and tablets */
 @media (max-width: 991px){
     .carousel-heads{
         padding: calc(1rem+0.9vh);
